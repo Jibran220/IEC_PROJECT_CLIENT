@@ -31,6 +31,6 @@ const Container = styled.div`
     height: 20rem;
   }
   span {
-    color: black;
+    color: orange;
   }
 `;
