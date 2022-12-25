@@ -21,5 +21,5 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm i --force
-    - run: pm2 restart --name IEC_PROJECT_CLIENT  npm -- start
+    - run: pm2 restart IEC_PROJECT_CLIENT 
    
